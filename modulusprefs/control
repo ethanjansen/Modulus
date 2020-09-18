@@ -1,6 +1,6 @@
 Package: com.ethanjansen.modulusprefs
 Name: Modulus Preference Bundle
-Version: 0.1.8
+Version: 0.2.2
 Architecture: iphoneos-arm
 Description: Test Preference Bundle for Modulus
 Maintainer: Ethan Jansen
