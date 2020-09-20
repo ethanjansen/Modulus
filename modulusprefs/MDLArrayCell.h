@@ -12,5 +12,14 @@
 }
 
 @property (nonatomic) NSMutableArray *array;
+@property (nonatomic, weak) UINavigationController *rootNavigationController;
+//@property (nonatomic, readonly) BOOL editingState;
+
+- (void)addRow;
+- (void)setArrayType:(NSString *)arrayType;
+- (BOOL)editingState;
+- (void)toggleEditingState:(BOOL)state;
+- (void)pushController:(id)viewController;
++ (MDLArrayCell *)returnCurrentPointer;
 
 @end
